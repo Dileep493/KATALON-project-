@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="testdata" time="7" tests="0" failures="0" errors="1">
+   <testsuite name="testdata" tests="0" failures="0" errors="1" time="7" timestamp="2018-07-25 11:42:53" hostname="slk - WSLK1FFTRFW-20.SLKSOFT.COM" id="Test Suites/testdata">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\fortworth\\katlon\\demo\\Reports\\testdata\\20180725_114252"/>
+         <property name="logFiles" value="D:\\fortworth\\katlon\\demo\\Reports\\testdata\\20180725_114252\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="slk - WSLK1FFTRFW-20.SLKSOFT.COM"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Firefox 62.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="2edb1b09-faa5-422c-becd-de02d0ed26d1"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Day2/test 1" classname="Test Cases/Day2/test 1" status="ERROR">
+         <error type="ERROR" message="Test Cases/Day2/test 1 FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl() is applicable for argument types: (java.lang.Class) values: [class java.net.URL]
+Possible solutions: navigateToUrl(java.lang.String), navigateToUrl(java.lang.String, com.kms.katalon.core.model.FailureHandling)"/>
+         <system-out><![CDATA[2018-07-25 11:42:54 - [TEST_CASE][ERROR] - Test Cases/Day2/test 1: Test Cases/Day2/test 1 FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl() is applicable for argument types: (java.lang.Class) values: [class java.net.URL]
+Possible solutions: navigateToUrl(java.lang.String), navigateToUrl(java.lang.String, com.kms.katalon.core.model.FailureHandling)
+
+2018-07-25 11:42:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-25 11:42:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-25 11:42:59 - [TEST_STEP][PASSED] - navigateToUrl: null]]></system-out>
+         <system-err><![CDATA[2018-07-25 11:42:54 - [TEST_CASE][ERROR] - Test Cases/Day2/test 1: Test Cases/Day2/test 1 FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl() is applicable for argument types: (java.lang.Class) values: [class java.net.URL]
+Possible solutions: navigateToUrl(java.lang.String), navigateToUrl(java.lang.String, com.kms.katalon.core.model.FailureHandling)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-25 11:42:53 - [TEST_SUITE][ERROR] - testdata: Test Cases/Day2/test 1 FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl() is applicable for argument types: (java.lang.Class) values: [class java.net.URL]
+Possible solutions: navigateToUrl(java.lang.String), navigateToUrl(java.lang.String, com.kms.katalon.core.model.FailureHandling)]]></system-out>
+      <system-err><![CDATA[2018-07-25 11:42:53 - [TEST_SUITE][ERROR] - testdata: Test Cases/Day2/test 1 FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl() is applicable for argument types: (java.lang.Class) values: [class java.net.URL]
+Possible solutions: navigateToUrl(java.lang.String), navigateToUrl(java.lang.String, com.kms.katalon.core.model.FailureHandling)]]></system-err>
+   </testsuite>
+</testsuites>

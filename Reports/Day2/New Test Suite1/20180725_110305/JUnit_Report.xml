@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite1" time="24" tests="1" failures="0" errors="1">
+   <testsuite name="New Test Suite1" tests="1" failures="0" errors="1" time="24" timestamp="2018-07-25 11:03:07" hostname="slk - WSLK1FFTRFW-20.SLKSOFT.COM" id="Test Suites/Day2/New Test Suite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\fortworth\\katlon\\demo\\Reports\\Day2\\New Test Suite1\\20180725_110305"/>
+         <property name="logFiles" value="D:\\fortworth\\katlon\\demo\\Reports\\Day2\\New Test Suite1\\20180725_110305\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="slk - WSLK1FFTRFW-20.SLKSOFT.COM"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Firefox 62.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="58006e6b-3bbb-484c-a8c6-b516b081c23f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Day2/test 1" classname="Test Cases/Day2/test 1" status="ERROR">
+         <error type="ERROR" message="Test Cases/Day2/test 1 FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl() is applicable for argument types: (java.lang.Class) values: [class java.net.URL]
+Possible solutions: navigateToUrl(java.lang.String), navigateToUrl(java.lang.String, com.kms.katalon.core.model.FailureHandling)"/>
+         <system-out><![CDATA[2018-07-25 11:03:08 - [TEST_CASE][ERROR] - Test Cases/Day2/test 1: Test Cases/Day2/test 1 FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl() is applicable for argument types: (java.lang.Class) values: [class java.net.URL]
+Possible solutions: navigateToUrl(java.lang.String), navigateToUrl(java.lang.String, com.kms.katalon.core.model.FailureHandling)
+
+2018-07-25 11:03:08 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-25 11:03:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-25 11:03:15 - [TEST_STEP][PASSED] - navigateToUrl: null]]></system-out>
+         <system-err><![CDATA[2018-07-25 11:03:08 - [TEST_CASE][ERROR] - Test Cases/Day2/test 1: Test Cases/Day2/test 1 FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl() is applicable for argument types: (java.lang.Class) values: [class java.net.URL]
+Possible solutions: navigateToUrl(java.lang.String), navigateToUrl(java.lang.String, com.kms.katalon.core.model.FailureHandling)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Day2/TEST2" classname="Test Cases/Day2/TEST2" status="PASSED">
+         <system-out><![CDATA[2018-07-25 11:03:17 - [TEST_CASE][PASSED] - Test Cases/Day2/TEST2: Test Cases/Day2/TEST2
+
+2018-07-25 11:03:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-25 11:03:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-25 11:03:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-25 11:03:22 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2018-07-25 11:03:26 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2018-07-25 11:03:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/span_Username' is clicked on
+
+2018-07-25 11:03:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/span_Username' is clicked on
+
+2018-07-25 11:03:27 - [TEST_STEP][PASSED] - setText: Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_txtUsername'
+
+2018-07-25 11:03:27 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_txtUsername'
+
+2018-07-25 11:03:27 - [TEST_STEP][PASSED] - setText: Text 'admin123' is set on object 'Object Repository/Page_OrangeHRM/input_txtPassword'
+
+2018-07-25 11:03:27 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Page_OrangeHRM/input_txtPassword'
+
+2018-07-25 11:03:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/input_Submit' is clicked on
+
+2018-07-25 11:03:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/input_Submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-25 11:03:07 - [TEST_SUITE][ERROR] - New Test Suite1: Test Cases/Day2/test 1 FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl() is applicable for argument types: (java.lang.Class) values: [class java.net.URL]
+Possible solutions: navigateToUrl(java.lang.String), navigateToUrl(java.lang.String, com.kms.katalon.core.model.FailureHandling)]]></system-out>
+      <system-err><![CDATA[2018-07-25 11:03:07 - [TEST_SUITE][ERROR] - New Test Suite1: Test Cases/Day2/test 1 FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl() is applicable for argument types: (java.lang.Class) values: [class java.net.URL]
+Possible solutions: navigateToUrl(java.lang.String), navigateToUrl(java.lang.String, com.kms.katalon.core.model.FailureHandling)]]></system-err>
+   </testsuite>
+</testsuites>

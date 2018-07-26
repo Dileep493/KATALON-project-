@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="orangeTestSuit" time="35" tests="2" failures="0" errors="0">
+   <testsuite name="orangeTestSuit" tests="2" failures="0" errors="0" time="35" timestamp="2018-07-24 17:51:27" hostname="slk - WSLK1FFTRFW-20.SLKSOFT.COM" id="Test Suites/orangeTestSuit">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\fortworth\\katlon\\demo\\Reports\\orangeTestSuit\\20180724_175126"/>
+         <property name="logFiles" value="D:\\fortworth\\katlon\\demo\\Reports\\orangeTestSuit\\20180724_175126\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="slk - WSLK1FFTRFW-20.SLKSOFT.COM"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="f767006b36682cb51e8f921130f70633"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/LOGIN/Test Login" classname="Test Cases/LOGIN/Test Login" status="PASSED">
+         <system-out><![CDATA[2018-07-24 17:51:28 - [TEST_CASE][PASSED] - Test Cases/LOGIN/Test Login: Test Cases/LOGIN/Test Login
+
+2018-07-24 17:51:28 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-24 17:51:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-24 17:51:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2018-07-24 17:51:35 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2018-07-24 17:51:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/span_Username' is clicked on
+
+2018-07-24 17:51:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/span_Username' is clicked on
+
+2018-07-24 17:51:35 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_OrangeHRM/input_txtUsername'
+
+2018-07-24 17:51:36 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_OrangeHRM/input_txtUsername'
+
+2018-07-24 17:51:36 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_txtPassword'
+
+2018-07-24 17:51:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_txtPassword'
+
+2018-07-24 17:51:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/input_Submit' is clicked on
+
+2018-07-24 17:51:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/input_Submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LOGIN/ValidateLinks" classname="Test Cases/LOGIN/ValidateLinks" status="PASSED">
+         <system-out><![CDATA[2018-07-24 17:51:40 - [TEST_CASE][PASSED] - Test Cases/LOGIN/ValidateLinks: Test Cases/LOGIN/ValidateLinks
+
+2018-07-24 17:51:40 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/LOGIN/Test Login' successfully
+
+2018-07-24 17:51:40 - [TEST_CASE][PASSED] - Test Cases/LOGIN/Test Login: Test Cases/LOGIN/Test Login
+
+2018-07-24 17:51:40 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-24 17:51:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-24 17:51:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-24 17:51:43 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2018-07-24 17:51:48 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2018-07-24 17:51:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/span_Username' is clicked on
+
+2018-07-24 17:51:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/span_Username' is clicked on
+
+2018-07-24 17:51:48 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_OrangeHRM/input_txtUsername'
+
+2018-07-24 17:51:49 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_OrangeHRM/input_txtUsername'
+
+2018-07-24 17:51:49 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_txtPassword'
+
+2018-07-24 17:51:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_txtPassword'
+
+2018-07-24 17:51:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/input_Submit' is clicked on
+
+2018-07-24 17:51:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/input_Submit' is clicked on
+
+2018-07-24 17:51:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LOGIN/Test Login' successfully
+
+2018-07-24 17:51:51 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_OrangeHRM/b_Dashboard (1)' is present
+
+2018-07-24 17:51:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/b_Dashboard (1)' is present
+
+2018-07-24 17:51:51 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_OrangeHRM/b_Directory (1)' is present
+
+2018-07-24 17:51:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/b_Directory (1)' is present
+
+2018-07-24 17:51:51 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_OrangeHRM/b_Leave (1)' is present
+
+2018-07-24 17:51:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/b_Leave (1)' is present
+
+2018-07-24 17:51:51 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_OrangeHRM/b_PIM (1)' is present
+
+2018-07-24 17:51:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/b_PIM (1)' is present
+
+2018-07-24 17:51:51 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_OrangeHRM/b_Recruitment (1)' is present
+
+2018-07-24 17:51:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/b_Recruitment (1)' is present
+
+2018-07-24 17:51:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/b_PIM' is clicked on
+
+2018-07-24 17:51:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/b_PIM' is clicked on
+
+2018-07-24 17:51:53 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page_OrangeHRM/b_PIM' is hovered
+
+2018-07-24 17:51:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/b_PIM' is hovered
+
+2018-07-24 17:51:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/a_Employee List' is clicked on
+
+2018-07-24 17:51:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/a_Employee List' is clicked on
+
+2018-07-24 17:51:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/input__search' is clicked on
+
+2018-07-24 17:51:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/input__search' is clicked on
+
+2018-07-24 17:51:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/a_Raj' is clicked on
+
+2018-07-24 17:51:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/a_Raj' is clicked on
+
+2018-07-24 17:51:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/input_btnSave' is clicked on
+
+2018-07-24 17:51:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/input_btnSave' is clicked on
+
+2018-07-24 17:51:55 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '15' are selected in object 'Object Repository/Page_OrangeHRM/select_-- Select --AfghanAlban'  using regular expression
+
+2018-07-24 17:51:56 - [MESSAGE][PASSED] - All options with value '15' are selected in object 'Object Repository/Page_OrangeHRM/select_-- Select --AfghanAlban'  using regular expression
+
+2018-07-24 17:51:56 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/Page_OrangeHRM/select_-- Select --AfghanAlban' is: '-- Select --
+Afghan
+Albanian
+Algerian
+American
+Andorran
+Angolan
+Antiguans
+Argentinean
+Armenian
+Australian
+Austrian
+Azerbaijani
+Bahamian
+Bahraini
+Bangladeshi
+Barbadian
+Barbudans
+Batswana
+Belarusian
+Belgian
+Belizean
+Beninese
+Bhutanese
+Bolivian
+Bosnian
+Brazilian
+British
+Bruneian
+Bulgarian
+Burkinabe
+Burmese
+Burundian
+Cambodian
+Cameroonian
+Canadian
+Cape Verdean
+Central African
+Chadian
+Chilean
+Chinese
+Colombian
+Comoran
+Congolese
+Costa Rican
+Croatian
+Cuban
+Cypriot
+Czech
+Danish
+Djibouti
+Dominican
+Dutch
+East Timorese
+Ecuadorean
+Egyptian
+Emirian
+Equatorial Guinean
+Eritrean
+Estonian
+Ethiopian
+Fijian
+Filipino
+Finnish
+French
+Gabonese
+Gambian
+Georgian
+German
+Ghanaian
+Greek
+Grenadian
+Guatemalan
+Guinea-Bissauan
+Guinean
+Guyanese
+Haitian
+Herzegovinian
+Honduran
+Hungarian
+I-Kiribati
+Icelander
+Indian
+Indonesian
+Iranian
+Iraqi
+Irish
+Israeli
+Italian
+Ivorian
+Jamaican
+Japanese
+Jordanian
+Kazakhstani
+Kenyan
+Kittian and Nevisian
+Kuwaiti
+Kyrgyz
+Laotian
+Latvian
+Lebanese
+Liberian
+Libyan
+Liechtensteiner
+Lithuanian
+Luxembourger
+Macedonian
+Malagasy
+Malawian
+Malaysian
+Maldivan
+Malian
+Maltese
+Marshallese
+Mauritanian
+Mauritian
+Mexican
+Micronesian
+Moldovan
+Monacan
+Mongolian
+Moroccan
+Mosotho
+Motswana
+Mozambican
+Namibian
+Nauruan
+Nepalese
+New Zealander
+Nicaraguan
+Nigerian
+Nigerien
+North Korean
+Northern Irish
+Norwegian
+Omani
+Pakistani
+Palauan
+Panamanian
+Papua New Guinean
+Paraguayan
+Peruvian
+Polish
+Portuguese
+Qatari
+Romanian
+Russian
+Rwandan
+Saint Lucian
+Salvadoran
+Samoan
+San Marinese
+Sao Tomean
+Saudi
+Scottish
+Senegalese
+Serbian
+Seychellois
+Sierra Leonean
+Singaporean
+Slovakian
+Slovenian
+Solomon Islander
+Somali
+South African
+South Korean
+Spanish
+Sri Lankan
+Sudanese
+Surinamer
+Swazi
+Swedish
+Swiss
+Syrian
+Taiwanese
+Tajik
+Tanzanian
+Thai
+Togolese
+Tongan
+Trinidadian or Tobagonian
+Tunisian
+Turkish
+Tuvaluan
+Ugandan
+Ukrainian
+Uruguayan
+Uzbekistani
+Venezuelan
+Vietnamese
+Welsh
+Yemenite
+Zambian
+Zimbabwean'
+
+2018-07-24 17:51:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_OrangeHRM/select_-- Select --AfghanAlban' is: '-- Select --
+Afghan
+Albanian
+Algerian
+American
+Andorran
+Angolan
+Antiguans
+Argentinean
+Armenian
+Australian
+Austrian
+Azerbaijani
+Bahamian
+Bahraini
+Bangladeshi
+Barbadian
+Barbudans
+Batswana
+Belarusian
+Belgian
+Belizean
+Beninese
+Bhutanese
+Bolivian
+Bosnian
+Brazilian
+British
+Bruneian
+Bulgarian
+Burkinabe
+Burmese
+Burundian
+Cambodian
+Cameroonian
+Canadian
+Cape Verdean
+Central African
+Chadian
+Chilean
+Chinese
+Colombian
+Comoran
+Congolese
+Costa Rican
+Croatian
+Cuban
+Cypriot
+Czech
+Danish
+Djibouti
+Dominican
+Dutch
+East Timorese
+Ecuadorean
+Egyptian
+Emirian
+Equatorial Guinean
+Eritrean
+Estonian
+Ethiopian
+Fijian
+Filipino
+Finnish
+French
+Gabonese
+Gambian
+Georgian
+German
+Ghanaian
+Greek
+Grenadian
+Guatemalan
+Guinea-Bissauan
+Guinean
+Guyanese
+Haitian
+Herzegovinian
+Honduran
+Hungarian
+I-Kiribati
+Icelander
+Indian
+Indonesian
+Iranian
+Iraqi
+Irish
+Israeli
+Italian
+Ivorian
+Jamaican
+Japanese
+Jordanian
+Kazakhstani
+Kenyan
+Kittian and Nevisian
+Kuwaiti
+Kyrgyz
+Laotian
+Latvian
+Lebanese
+Liberian
+Libyan
+Liechtensteiner
+Lithuanian
+Luxembourger
+Macedonian
+Malagasy
+Malawian
+Malaysian
+Maldivan
+Malian
+Maltese
+Marshallese
+Mauritanian
+Mauritian
+Mexican
+Micronesian
+Moldovan
+Monacan
+Mongolian
+Moroccan
+Mosotho
+Motswana
+Mozambican
+Namibian
+Nauruan
+Nepalese
+New Zealander
+Nicaraguan
+Nigerian
+Nigerien
+North Korean
+Northern Irish
+Norwegian
+Omani
+Pakistani
+Palauan
+Panamanian
+Papua New Guinean
+Paraguayan
+Peruvian
+Polish
+Portuguese
+Qatari
+Romanian
+Russian
+Rwandan
+Saint Lucian
+Salvadoran
+Samoan
+San Marinese
+Sao Tomean
+Saudi
+Scottish
+Senegalese
+Serbian
+Seychellois
+Sierra Leonean
+Singaporean
+Slovakian
+Slovenian
+Solomon Islander
+Somali
+South African
+South Korean
+Spanish
+Sri Lankan
+Sudanese
+Surinamer
+Swazi
+Swedish
+Swiss
+Syrian
+Taiwanese
+Tajik
+Tanzanian
+Thai
+Togolese
+Tongan
+Trinidadian or Tobagonian
+Tunisian
+Turkish
+Tuvaluan
+Ugandan
+Ukrainian
+Uruguayan
+Uzbekistani
+Venezuelan
+Vietnamese
+Welsh
+Yemenite
+Zambian
+Zimbabwean'
+
+2018-07-24 17:51:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/input_btnSave' is clicked on
+
+2018-07-24 17:51:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/input_btnSave' is clicked on
+
+2018-07-24 17:51:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/a_Employee List' is clicked on
+
+2018-07-24 17:51:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/a_Employee List' is clicked on
+
+2018-07-24 17:51:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/input__search' is clicked on
+
+2018-07-24 17:51:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/input__search' is clicked on
+
+2018-07-24 17:51:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/a_Raj' is clicked on
+
+2018-07-24 17:52:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/a_Raj' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-24 17:51:27 - [TEST_SUITE][PASSED] - orangeTestSuit: Test Cases/LOGIN/ValidateLinks]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
